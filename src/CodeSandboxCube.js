@@ -123,7 +123,7 @@ const Square = ({ r, x, y, z, filled, wireframe }) => {
       <lineSegments>
         <edgesGeometry args={[geo]} />
 
-        <lineBasicMaterial color="white" linewidth={40} />
+        <lineBasicMaterial color="white" linewidth={2} />
       </lineSegments>
       {filled && (
         <mesh>
